@@ -3,15 +3,25 @@
 int isVowel(int c){
     switch(c){
         case 'a':
+            printf("%c is %d\n",'a','a');
         case 'e':
+            printf("%c is %d\n",'e','e');
         case 'i':
+            printf("%c is %d\n",'i','i');
         case 'o':
+            printf("%c is %d\n",'o','o');
         case 'u':
+            printf("%c is %d\n",'u','u');
         case 'A':
+            printf("%c is %d\n",'A','A');
         case 'E':
+            printf("%c is %d\n",'E','E');
         case 'O':
+            printf("%c is %d\n",'O','O');
         case 'I':
+            printf("%c is %d\n",'I','I');
         case 'U':
+            printf("%c is %d\n",'U','U');
             return 1;
             break;
     }
